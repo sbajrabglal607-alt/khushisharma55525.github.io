@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Khushi Beauty - Beauty and skincare products">
+    <title>Khushi Beauty | Beauty Products</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <span>KB</span>
+                Khushi Beauty
+            </a>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <nav id="navbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="#products">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="cart">
+                🛍️ <span id="cartCount">0</span>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO KHUSHI BEAUTY</p>
+
+            <h1>Beauty That Makes You Feel <span>Beautiful</span></h1>
+
+            <p>
+                Discover our collection of beauty, skincare and personal-care
+                products carefully selected for your everyday beauty routine.
+            </p>
+
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+    <section class="categories container">
+
+        <div class="category-card">
+            <div class="category-icon">💄</div>
+            <h3>Makeup</h3>
+            <p>Look beautiful every day.</p>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon">🧴</div>
+            <h3>Skincare</h3>
+            <p>Care for your natural beauty.</p>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon">🌸</div>
+            <h3>Fragrance</h3>
+            <p>Beautiful fragrances for you.</p>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon">✨</div>
+            <h3>Beauty Care</h3>
+            <p>Everything for your beauty routine.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Products -->
+    <section class="products-section" id="products">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="small-title">OUR COLLECTION</p>
+                <h2>Featured Beauty Products</h2>
+                <p>
+                    Explore some of our popular beauty products.
+                </p>
+            </div>
+
+            <!-- Search -->
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search beauty products..."
+                >
+            </div>
+
+
+            <div class="product-grid" id="productGrid">
+
+                <div class="product-card" data-name="Rose Face Cream">
+                    <div class="product-image">🌹</div>
+
+                    <div class="product-info">
+                        <span class="product-category">SKINCARE</span>
+                        <h3>Rose Face Cream</h3>
+                        <p>Gentle daily face cream for a fresh look.</p>
+
+                        <div class="product-bottom">
+                            <strong>₹499</strong>
+                            <button class="add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-card" data-name="Lipstick">
+                    <div class="product-image">💄</div>
+
+                    <div class="product-info">
+                        <span class="product-category">MAKEUP</span>
+                        <h3>Luxury Lipstick</h3>
+                        <p>Beautiful colour for your perfect look.</p>
+
+                        <div class="product-bottom">
+                            <strong>₹299</strong>
+                            <button class="add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-card" data-name="Face Serum">
+                    <div class="product-image">✨</div>
+
+                    <div class="product-info">
+                        <span class="product-category">SKINCARE</span>
+                        <h3>Glow Face Serum</h3>
+                        <p>A lightweight serum for your daily routine.</p>
+
+                        <div class="product-bottom">
+                            <strong>₹599</strong>
+                            <button class="add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-card" data-name="Perfume">
+                    <div class="product-image">🌸</div>
+
+                    <div class="product-info">
+                        <span class="product-category">FRAGRANCE</span>
+                        <h3>Floral Perfume</h3>
+                        <p>A refreshing floral fragrance for every occasion.</p>
+
+                        <div class="product-bottom">
+                            <strong>₹799</strong>
+                            <button class="add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-card" data-name="Face Wash">
+                    <div class="product-image">🧴</div>
+
+                    <div class="product-info">
+                        <span class="product-category">SKINCARE</span>
+                        <h3>Gentle Face Wash</h3>
+                        <p>A refreshing face wash for everyday use.</p>
+
+                        <div class="product-bottom">
+                            <strong>₹349</strong>
+                            <button class="add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-card" data-name="Beauty Kit">
+                    <div class="product-image">🎁</div>
+
+                    <div class="product-info">
+                        <span class="product-category">BEAUTY</span>
+                        <h3>Beauty Gift Kit</h3>
+                        <p>A beautiful collection for your beauty routine.</p>
+
+                        <div class="product-bottom">
+                            <strong>₹999</strong>
+                            <button class="add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="small-title">WHY KHUSHI BEAUTY?</p>
+                <h2>Beauty With Care</h2>
+            </div>
+
+            <div class="features">
+
+                <div class="feature">
+                    <div>💖</div>
+                    <h3>Quality Products</h3>
+                    <p>Beauty products selected with care.</p>
+                </div>
+
+                <div class="feature">
+                    <div>🚚</div>
+                    <h3>Easy Shopping</h3>
+                    <p>Simple and convenient shopping experience.</p>
+                </div>
+
+                <div class="feature">
+                    <div>⭐</div>
+                    <h3>Customer First</h3>
+                    <p>Your satisfaction is important to us.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <h2>Khushi Beauty</h2>
+                <p>Beauty products for your everyday glow.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>📞 9828429584</p>
+                <p>📍 Kila Colony, Sand Devla Pass,<br>
+                Parbatsar (Kuchaman-Didwana)</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Khushi Beauty. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="style.js"></script>
+
+</body>
+              </html>
